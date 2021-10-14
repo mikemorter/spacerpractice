@@ -9,6 +9,7 @@ function WelcomeScreen(props) {
         source={require("../Images/SpacerLogoWords.png")}
       />
       <Text>Hello</Text>
+      <Image source={require("../Images/Logo.png")} />
     </View>
   );
 }
